@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 # Uncomment to manully set the AntiCheat value
+# You will be asked for your root password every time you launch this script
 pkexec sh -c 'sysctl -w abi.vsyscall32=0'
 # Uncomment the next line to automatically set vsyscall32 to zero
 # sudo sysctl -w abi.vsyscall32=0
